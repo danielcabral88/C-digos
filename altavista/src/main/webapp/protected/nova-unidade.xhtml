@@ -1,0 +1,55 @@
+<ui:composition template="/template.xhtml" 
+	  xmlns="http://www.w3.org/1999/xhtml" 
+      xmlns:ui="http://java.sun.com/jsf/facelets" 
+      xmlns:h="http://java.sun.com/jsf/html" 
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:o="http://omnifaces.org/ui">
+      			<ui:define name="content">
+      				
+      				<f:metadata>
+      					<o:viewParam name="unidade" value="#{unidadeBean.unidade}"/>
+      					
+      				</f:metadata>
+      				<h:form id="nova_unidade">
+      				<p:messages autoUpdate="true" closable="true"/>
+      				<p:panel header="Nova Unidade" style="width: 640px; margin: auto">
+      					<h:panelGrid columns="2" cellspacing="20" style="text-align: right">
+      						<h:outputLabel for="nome" value="No. Unidade:" />
+      						<h:inputText id="unidade" value="#{unidadeBean.unidade.nrUnidade}" style="width: 400px"/>
+      						<h:outputLabel for="nome" value="Responsável:" />
+      						<h:inputText id="nome" value="#{unidadeBean.unidade.nomeResponsavel}" style="width: 400px"/>
+      						<h:outputLabel for="cpf" value="CPF:" style="display: inline-block"/>
+      						<h:inputText id="cpf" value="#{unidadeBean.unidade.cpfResponsavel}" style="display:inline-block;float:left"/>
+      						<h:outputLabel for="email" value="E-mail:" />
+      						<h:inputText  id="email" value="#{unidadeBean.unidade.email}" style="width: 400px"/>
+      						<h:outputLabel value="Data de Aquisição:" for="data"/>
+      						<p:calendar id="data" value="#{unidadeBean.unidade.dataAquisicao}" style="display:inline-block;float:left"/>
+      						<h:outputLabel value="Telefone #1:" />
+      						<h:inputText value="#{unidadeBean.unidade.telefone1}" style="width: 400px"/>
+      						<h:outputLabel value="Telefone #2:" />
+      						<h:inputText value="#{unidadeBean.unidade.telefone2}" style="width: 400px"/>
+      						<h:outputLabel value="Área Total (m2):" />
+      						<h:inputText value="#{unidadeBean.unidade.areaTotal}" style="width: 400px"/>
+      						<h:outputLabel value="No. Torre:" />
+      						<h:inputText value="#{unidadeBean.unidade.torre}" style="width: 400px"/>
+      						<h:outputLabel value="No. Garagem" />
+      						<h:inputText value="#{unidadeBean.unidade.nrGaragem}" style="width: 400px"/>
+      						<h:outputLabel value="Placa Veículo #1:" />
+      						<h:inputText value="#{unidadeBean.unidade.placaVeiculo1}" style="width: 400px"/>
+      						<h:outputLabel value="Placa Veículo #2:" />
+      						<h:inputText value="#{unidadeBean.unidade.placaVeiculo2}" style="width: 400px"/>
+      						<h:outputLabel value="Fração Ideal:" />
+      						<h:inputText value="#{unidadeBean.unidade.fracaoIdeal}" style="width: 400px"/>
+      						<h:outputLabel value="Situação:"/>
+      						<h:selectOneRadio value="#{unidadeBean.unidade.alugada}">
+      							<f:selectItem itemValue="#{true}" itemLabel="Alugada"/>
+      							<f:selectItem itemValue="#{false}" itemLabel="Inativa"/>
+      						</h:selectOneRadio>
+      						<p:commandButton value="Salvar" id="salvar" action="#{unidadeBean.salvar()}" update="@form"/>
+      					</h:panelGrid>
+      				</p:panel>
+      				</h:form>
+      				<div style="margin-bottom: 100px"></div>
+      			</ui:define>
+</ui:composition>

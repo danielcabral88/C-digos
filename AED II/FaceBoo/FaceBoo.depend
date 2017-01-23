@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1406766790 source:c:\users\daniel cabral\documents\acadêmico\2014.1\aed ii\faceboo\faceboo.c
+	"Grafo.h"
+	"Fila.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<tchar.h>
+	<math.h>
+
+1406766758 c:\users\daniel cabral\documents\acadêmico\2014.1\aed ii\faceboo\grafo.h
+
+1406765862 c:\users\daniel cabral\documents\acadêmico\2014.1\aed ii\faceboo\fila.h
+
+1406765737 source:c:\users\daniel cabral\documents\acadêmico\2014.1\aed ii\faceboo\fila.c
+	"Fila.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<tchar.h>
+
+1406765515 source:c:\users\daniel cabral\documents\acadêmico\2014.1\aed ii\faceboo\main.c
+	"Grafo.h"
+	"Fila.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<tchar.h>
+

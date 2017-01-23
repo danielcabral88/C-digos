@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1383692146 source:c:\users\ramon\downloads\grafo\fila.c
+	<stdlib.h>
+	<stdio.h>
+	"fila.h"
+
+1337216730 c:\users\ramon\downloads\grafo\fila.h
+
+1383692411 source:c:\users\ramon\downloads\grafo\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Grafo.h"
+
+1385044892 c:\users\ramon\downloads\grafo\grafo.h
+
+1383527737 source:c:\users\ramon\downloads\grafo\pilha.c
+	<stdio.h>
+	<stdlib.h>
+	"pilha.h"
+
+1383527737 c:\users\ramon\downloads\grafo\pilha.h
+
+1383692479 source:c:\users\ramon\downloads\grafo\untitled1.c
+	<stdio.h>
+	<stdlib.h>
+	"Grafo.h"
+	"pilha.h"
+	"fila.h"
+
+1385045037 source:c:\users\ramon\downloads\grafo\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	"Grafo.h"
+
+1385044973 source:c:\users\ramon\downloads\grafo\untitled1.cpp
+	<stdio.h>
+	<stdlib.h>
+	"Grafo.h"
+	<queue>
+
+1385048638 source:c:\users\daniel cabral\google drive\acadêmico\2013.2\aed ii\códigos aux\grafo\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	"Grafo.h"
+
+1385603779 c:\users\daniel cabral\google drive\acadêmico\2013.2\aed ii\códigos aux\grafo\grafo.h
+

@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1353751060 source:c:\users\daniel cabral\documents\acadêmico\2014.1\aed ii\ordenação\algoritmosordenacao\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1406069637 source:c:\users\daniel cabral\documents\acadêmico\2014.1\aed ii\ordenação\algoritmosordenacao\merge.c
+	<stdio.h>
+	<stdlib.h>
+
+1406068763 source:c:\users\daniel cabral\documents\acadêmico\2014.1\aed ii\ordenação\algoritmosordenacao\quick.c
+	<stdio.h>
+	<stdlib.h>
+
+1406069130 source:c:\users\daniel cabral\documents\acadêmico\2014.1\aed ii\ordenação\algoritmosordenacao\insertion.c
+	<stdio.h>
+	<stdlib.h>
+

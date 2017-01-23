@@ -1,0 +1,58 @@
+# depslib dependency file v1.0
+1406756228 source:c:\users\daniel cabral\documents\acadêmico\2014.1\aed ii\ordenação\terroristadsf\grafo.c
+	"Grafo.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<tchar.h>
+
+1406755039 c:\users\daniel cabral\documents\acadêmico\2014.1\aed ii\ordenação\terroristadsf\bibliotecas.h
+	"Grafo.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<tchar.h>
+
+1406755568 c:\users\daniel cabral\documents\acadêmico\2014.1\aed ii\ordenação\terroristadsf\grafo.h
+
+1406755936 source:c:\users\daniel cabral\documents\acadêmico\2014.1\aed ii\ordenação\terroristadsf\main.cpp
+	"Grafo.h"
+	"Grafo.c"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<tchar.h>
+
+1406756228 c:\users\daniel cabral\documents\acadêmico\2014.1\aed ii\ordenação\terroristadsf\grafo.c
+	"Grafo.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<tchar.h>
+
+1406755936 source:c:\users\daniel cabral\documents\acadêmico\2014.1\aed ii\terroristadsf\main.cpp
+	"Grafo.h"
+	"Grafo.c"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<tchar.h>
+
+1406767698 c:\users\daniel cabral\documents\acadêmico\2014.1\aed ii\terroristadsf\grafo.h
+
+1406767827 c:\users\daniel cabral\documents\acadêmico\2014.1\aed ii\terroristadsf\grafo.c
+	"Grafo.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<tchar.h>
+	<math.h>
+
+1406767827 source:c:\users\daniel cabral\documents\acadêmico\2014.1\aed ii\terroristadsf\grafo.c
+	"Grafo.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<tchar.h>
+	<math.h>
+

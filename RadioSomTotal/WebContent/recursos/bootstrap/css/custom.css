@@ -1,0 +1,11 @@
+@CHARSET "UTF-8";
+
+.navbar {
+	min-height: 20px;
+}
+
+.painel-central {
+	 width: 800px;
+	 margin-top: 80px;
+	 margin-bottom: 80px;
+}

@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1379466583 source:c:\users\daniel cabral\documents\acadêmico\2013.2\aed ii\abb\abb\arvorebb.c
+	<stdlib.h>
+	<stdio.h>
+	"arvoreBB.h"
+
+1379466451 c:\users\daniel cabral\documents\acadêmico\2013.2\aed ii\abb\abb\arvorebb.h
+
+1379466432 source:c:\users\daniel cabral\documents\acadêmico\2013.2\aed ii\abb\abb\main.c
+	"arvoreBB.h"
+	<stdio.h>
+

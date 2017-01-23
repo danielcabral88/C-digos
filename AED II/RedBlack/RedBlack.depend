@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1381613227 source:c:\users\ps-inalberth\desktop\codeblocks\redblack\red_black.c
+	<stdio.h>
+	<stdlib.h>
+	"red_black.h"
+
+1381612698 c:\users\ps-inalberth\desktop\codeblocks\redblack\red_black.h
+
+1381613280 source:c:\users\ps-inalberth\desktop\codeblocks\redblack\teste.c
+	<stdio.h>
+	<stdlib.h>
+	"red_black.h"
+
+1381613227 source:c:\users\daniel cabral\documents\acadêmico\2014.1\aed ii\redblack\red_black.c
+	<stdio.h>
+	<stdlib.h>
+	"red_black.h"
+
+1381613308 c:\users\daniel cabral\documents\acadêmico\2014.1\aed ii\redblack\red_black.h
+
+1381613280 source:c:\users\daniel cabral\documents\acadêmico\2014.1\aed ii\redblack\teste.c
+	<stdio.h>
+	<stdlib.h>
+	"red_black.h"
+

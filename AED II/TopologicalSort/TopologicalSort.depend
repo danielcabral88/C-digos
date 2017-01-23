@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1406772245 source:c:\users\daniel cabral\documents\acadêmico\2014.1\aed ii\topologicalsort\main.c
+	"Grafo.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1406773957 source:c:\users\daniel cabral\documents\acadêmico\2014.1\aed ii\topologicalsort\topologicalsort.c
+	"Grafo.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<tchar.h>
+	<math.h>
+
+1406773988 c:\users\daniel cabral\documents\acadêmico\2014.1\aed ii\topologicalsort\grafo.h
+

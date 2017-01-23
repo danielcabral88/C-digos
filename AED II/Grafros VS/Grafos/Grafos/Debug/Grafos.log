@@ -1,0 +1,15 @@
+﻿Build started 02/12/2013 20:59:53.
+     1>Project "C:\Users\Daniel Cabral\Google Drive\Acadêmico\2013.2\AED II\Grafros VS\Grafos\Grafos\Grafos.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Grafos.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\Grafos.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>c:\users\daniel cabral\google drive\acadêmico\2013.2\aed ii\grafros vs\grafos\grafos\grafos.h(23): error C2146: syntax error : missing ';' before identifier 'cria'
+     1>c:\users\daniel cabral\google drive\acadêmico\2013.2\aed ii\grafros vs\grafos\grafos\grafos.h(23): error C2040: 'Graph' : 'Graph' differs in levels of indirection from 'grafo *'
+     1>c:\users\daniel cabral\google drive\acadêmico\2013.2\aed ii\grafros vs\grafos\grafos\grafos.h(23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>Done Building Project "C:\Users\Daniel Cabral\Google Drive\Acadêmico\2013.2\AED II\Grafros VS\Grafos\Grafos\Grafos.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.35

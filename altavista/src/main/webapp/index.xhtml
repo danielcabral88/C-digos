@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:f="http://java.sun.com/jsf/core">
+	<h:head>
+		<title><ui:insert name="title">Marina Altavista ::</ui:insert></title>
+		<h:outputStylesheet name="condominio.css" library="css"></h:outputStylesheet>
+	</h:head>
+	<h:body>
+			<p:layoutUnit position="north" resizable="false" closable="false" size="auto" style="position: relative !important">
+				<ui:insert name="menu">
+					<ui:include src="/composition/menu.xhtml" />
+				</ui:insert>
+			<div id="jumbotron">
+				<div id="image">
+					<img src="resources/images/marina-ribbon-w2.png" alt="" />
+				</div>
+				<span id="description">Com mais de 10 anos em atividade, a rede de condomínios Marina Altavista oferece a você
+				 	e sua família o que há de melhor em conforto, segurança, diversão e lazer. Procure uma de nossas
+				 	50 filiais localizadas nas principais cidades do país. </span>
+			</div>
+			</p:layoutUnit>
+			<p:layoutUnit position="center" resizable="true" closable="false" id="center" style="position:relative !important">
+				<div style="padding-top: 100px"></div>
+				<div class="ui-grid ui-grid-responsive">
+				<div class="ui-grid-row">
+					<div class="ui-grid-col-3">
+						<p:panel style=""><img src="http://www.skroutzondeck.com/wp-content/uploads/2014/04/interior-apartment-modish-apartment-interior-design-ideas-in-spacious-room-with-modern-furnitures-on-living-room-and-dining-room-idea-34-stylish-apartment-interior-ideas-for-your-inspiration-300x300.jpg" alt="..."/>Conforto e Elegância</p:panel>
+					</div>
+					<div class="ui-grid-col-3">
+						<p:panel style=""><img src="http://thenypost.files.wordpress.com/2013/08/gym_trainer-300x300.jpg" alt="..."/></p:panel>
+					</div>
+					<div class="ui-grid-col-3">
+						<p:panel style=""><img src="http://www.transforminghealth.org/stories/kids-playground-jungle-gym.jpg" alt="..."/></p:panel>
+					</div>
+					<div class="ui-grid-col-3">
+						<p:panel style=""><img src="http://www.culleyinsurance.com/wp-content/uploads/2014/03/Security-Guard-Liability-Insurance-Santa-Rosa.jpg" alt="..."/></p:panel>
+					</div>
+				</div>
+				</div>
+				<h:panelGrid columns="4" style="margin:0 auto">
+					
+					
+					
+					
+				</h:panelGrid>
+				<div style="padding-bottom:428px"></div>
+			</p:layoutUnit>
+			<p:layoutUnit position="south" resizable="true" closable="false" id="footer">
+				<p:panel footer="2014 - Todos os direitos reservados.">
+				<h:panelGrid columns="2" style="margin: auto">
+					<h:panelGrid columns="1" cellspacing="6">
+						<h3>Contato</h3>
+						<h:panelGrid columns="3" cellpadding="6" style="text-align: right">
+							<h:outputLabel value="Login:"/>
+							<h:inputText label="Login" id="login" style="width: 350px"/>
+							<p:watermark for="login" value="Entre com o login"/>
+							<h:outputLabel value="Senha:" />
+							<h:inputText id="senha" label="Senha" style="width: 350px"/>
+							<p:watermark for="senha" value="Entre com a senha"/>
+							<h:outputLabel value="Mensagem:" />
+							<h:inputTextarea label="Mensagem" rows="5" style="width: 350px" cols="10"/>
+						</h:panelGrid>
+						<h:commandButton value="Enviar"/>
+					</h:panelGrid>
+					<h:panelGrid columns="1" cellspacing="6">
+						<h3>Nossa Localização</h3>
+						<h:outputText value="Endereço: Av. Marechal Bismarck, 1048" />
+						<h:outputText value="Fone: (XX) 2109-2224" />
+						<h:outputText value="E-mail: contato@marinaltavista.com.br" />
+						<h:outputText value="Atendimento: Seg a Sex - 08:00 - 20:00" />
+						<p:spacer height="120"/>
+					</h:panelGrid>
+				</h:panelGrid>
+				</p:panel>
+			
+			</p:layoutUnit>
+	</h:body>
+</html>

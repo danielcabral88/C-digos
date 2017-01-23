@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1383744608 source:c:\users\ps-inalberth\desktop\codeblocks\grafo\grafo.c
+	<stdio.h>
+	<stdlib.h>
+	"grafo.h"
+
+1386260146 c:\users\ps-inalberth\desktop\codeblocks\grafo\grafo.h
+	"fila.h"
+
+1386271750 source:c:\users\ps-inalberth\desktop\codeblocks\grafo\teste.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"grafo.h"
+	"fila.h"
+
+1385987530 source:c:\users\ps-inalberth\desktop\codeblocks\grafo\fila.c
+	<stdlib.h>
+	<stdio.h>
+	"fila.h"
+
+1385940399 c:\users\ps-inalberth\desktop\codeblocks\grafo\fila.h
+
+1386272169 source:c:\users\ps-inalberth\desktop\codeblocks\grafo\grafo_.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"grafo.h"
+
+1386274198 source:c:\users\ps-inalberth\desktop\codeblocks\grafo\teste_.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"grafo.h"
+
+1385986905 c:\users\ps-inalberth\desktop\codeblocks\grafo\lista.h
+	"grafo.h"
+
+1386256548 source:c:\users\ps-inalberth\desktop\codeblocks\grafo\lista.c
+	<stdio.h>
+	<stdlib.h>
+	"lista.h"
+
+1386067859 source:c:\users\ps-inalberth\desktop\codeblocks\grafo\pilha.c
+	<stdio.h>
+	<stdlib.h>
+	"pilha.h"
+
+1386043814 c:\users\ps-inalberth\desktop\codeblocks\grafo\pilha.h
+	"fila.h"
+

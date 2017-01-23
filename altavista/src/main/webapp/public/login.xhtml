@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:p="http://primefaces.org/ui">
+ 
+<h:body>
+    <ui:decorate template="/template.xhtml">
+    	<ui:define name="content">
+       <h:form id="formLogin">
+						<p:panel header="Iniciar Sessão" style="width: 350px; margin: 11% auto">
+							<h:panelGrid columns="3" cellpadding="6">
+								<h:outputLabel value="Login:" />
+								<h:inputText label="Login" id="login"/>
+								<p:watermark for="login" value="Entre com o login"/>
+								<h:outputLabel value="Senha:" />
+								<h:inputSecret id="senha" label="Senha"/>
+								<p:watermark for="senha" value="Entre com a senha"/>
+								<h:commandButton value="Entrar" />
+							</h:panelGrid>
+						</p:panel>	
+					</h:form>
+					</ui:define>
+					
+    </ui:decorate>
+</h:body>
+</html>

@@ -1,0 +1,29 @@
+CadastrarSala(UC03)
+
+Breve Descrição
+Permite o cadastro de informações das salas no sistema
+
+Atores
+Usuário_Coordenador
+
+Pré-requisitos
+	O Usuário_Coordenador deve estar logado no sistema;
+Fluxo Básico
+	1 - O caso de uso inicia quando o Usuário_Coordenador clica na Opção "Cadastrar Sala" na tela principal;
+	2 - O sistema exibe um formulário com as informações necessárias para o cadastro da sala(Nome, tipo de sala);
+	3 - O Usuário_Coordenador preenche as informações;
+	4 - O Usuário_Coordenador clica em "Salvar"; 
+	5 - O sistema valida as informações inseridas A1, A2;
+	6 - O sistema mostra uma mensagem indicando o fim da operação;
+Fluxos Alternativos
+	A1 Fluxo alternativo 1: Todas os campos são corretamente preenchidos
+		O sistema salva as informações;
+		O sistema exibe uma mensagem de sucesso ao finalizar a operação;
+		O sistema retorna à tela principal;
+	A2 Fluxo alternativo 2: Um dos campos não foi preenchido ou foi preenchido de forma incorreta
+		O sistema identifica quais dados não passaram na validação
+		O sistema mostra ao Usuario_Coordenador os dados que não passaram na validação
+		O sistema volta ao passo 1 do fluxo básico
+
+
+

@@ -1,0 +1,57 @@
+<ui:composition template="/template.xhtml"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+
+	<ui:define name="titulo">Consultar Unidades</ui:define>
+
+	<ui:define name="content">
+		<h:form id="frmListarUnidades">
+			<p:dataTable id="unidadeTable" value="#{unidadeBean.listar()}" var="unidade">
+			
+				<p:column headerText="Responsável">
+					<h:outputText value="#{unidade.nomeResponsavel}" />
+				</p:column>
+				
+				<p:column headerText="CPF">
+					<h:outputText value="#{unidade.cpfResponsavel}" />
+				</p:column>
+				
+				<p:column headerText="Telefone #1">
+					<h:outputText value="#{unidade.telefone1}" />
+				</p:column>
+				
+				<p:column headerText="Telefone #2">
+					<h:outputText value="#{unidade.telefone2}" />
+				</p:column>
+				
+				<p:column headerText="Data de Aquisição">
+					<h:outputText value="#{unidade.dataAquisicao}" />
+				</p:column>
+				
+				<p:column style="text-align:center">
+					
+					<p:button outcome="/protected/nova-unidade" icon="ui-icon-pencil" title="Editar">
+						<f:param name="unidade" value="#{unidade.idUnidade}"></f:param>
+					</p:button>
+					
+					<p:commandButton icon="ui-icon-trash" title="Excluir" oncomplete="confirmacaoExclusao.show()"
+					process="@this" update=":frmListarUnidades:confirmacaoExclusaoDialog">
+						<f:setPropertyActionListener target="#{unidadeBean.unidade}" value="#{unidade}" />
+					</p:commandButton>
+					
+				</p:column>
+			</p:dataTable>
+			<p:confirmDialog header="Excluir Unidade" 
+	    		message="Tem certeza que deseja excluir a Unidade?"
+	    		widgetVar="confirmacaoExclusao"	id="confirmacaoExclusaoDialog">
+	    		<p:button value="Não" onclick="confirmacaoExclusao.hide(); return false;" />
+	    		<p:commandButton value="Sim" oncomplete="confirmacaoExclusao.hide();"
+	    			action="#{unidadeBean.excluir}" process="@this"
+	    			update=":frmListarUnidades:unidadeTable" />
+	    	</p:confirmDialog>
+		</h:form>
+	</ui:define>
+</ui:composition>

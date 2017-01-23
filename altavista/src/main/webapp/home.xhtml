@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:f="http://java.sun.com/jsf/core">
+	<h:head>
+		<title><ui:insert name="title">Marina Altavista ::</ui:insert></title>
+		<style>
+		
+			.ui-layout-north {
+				z-index: 20 !important;
+				overflow: visible !important;
+			}
+			
+			.ui-layout-north .ui-layout-unit-content {
+  				 overflow: visible !important;
+			}
+			
+			body {
+				background: #eeeeee;
+			}
+			
+		</style>
+	</h:head>
+	<h:body>
+		<h:form>
+			<p:layout fullPage="true">
+				<p:layoutUnit position="north" resizable="true">		
+					<p:menubar style="">
+						<p:submenu label="Unidades" icon="ui-icon-home">
+							<p:menuitem value="Criar Nova" icon="ui-icon-document"/>
+							<p:menuitem value="Localizar" icon="ui-icon-search"/>
+							<p:menuitem value="Excluir" icon="ui-icon-trash"/>
+						</p:submenu>
+						<p:submenu label="Serviços" icon="ui-icon-wrench">
+						</p:submenu>
+						<p:submenu label="Reuniões" icon="ui-icon-calendar">
+						</p:submenu>
+						<p:menuitem value="Quem Somos" icon="ui-icon-contact">
+						</p:menuitem>
+						<p:submenu label="Usuário" icon="ui-icon-person" style="float:right">
+						</p:submenu>
+					</p:menubar>
+				</p:layoutUnit>
+				<p:layoutUnit position="center" gutter="0" style="background: #eeeeee">
+					<h:form id="formLogin" style="background: #cccccc">
+						<p:messages showDetail="true" showSummary="true"></p:messages>
+						<p:panel header="Iniciar Sessão" style="width: 350px;margin:12% auto;">
+							<h:panelGrid columns="3" cellpadding="6">
+								<h:outputLabel value="Login:" />
+								<h:inputText label="Login" id="login"/>
+								<p:watermark for="login" value="Entre com o login"/>
+								<h:outputLabel value="Senha:" />
+								<h:inputSecret id="senha" label="Senha"/>
+								<p:watermark for="senha" value="Entre com a senha"/>
+								<h:commandButton value="Entrar" actionListener="#{unidadeBean.salvar()}"/>
+							</h:panelGrid>
+						</p:panel>	
+					</h:form>
+				</p:layoutUnit>
+				<p:layoutUnit position="south">
+					
+				</p:layoutUnit>
+			</p:layout>
+		</h:form>
+	</h:body>
+</html>

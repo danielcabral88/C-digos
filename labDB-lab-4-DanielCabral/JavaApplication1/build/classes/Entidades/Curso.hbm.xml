@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 4, 2013 9:45:51 PM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="Entidades.Curso" table="curso" catalog="academico">
+        <id name="idCurso" type="java.lang.Integer">
+            <column name="id_curso" />
+            <generator class="identity" />
+        </id>
+        <property name="turno" type="string">
+            <column name="turno" length="45" not-null="true" />
+        </property>
+        <property name="numPeriodos" type="int">
+            <column name="num_periodos" not-null="true" />
+        </property>
+        <property name="nomeCoordenador" type="string">
+            <column name="nome_coordenador" length="45" not-null="true" />
+        </property>
+        <property name="nome" type="string">
+            <column name="nome" length="45" not-null="true" />
+        </property>
+        <set name="disciplinas" inverse="false" table="curso_has_disciplina">
+            <key>
+                <column name="curso_id_curso" not-null="true" />
+            </key>
+            <many-to-many entity-name="Entidades.Disciplina">
+                <column name="disciplina_id_disciplina" not-null="true" />
+            </many-to-many>
+        </set>
+        <set name="alunos" inverse="true">
+            <key>
+                <column name="curso_id_curso" not-null="true" />
+            </key>
+            <one-to-many class="Entidades.Aluno" />
+        </set>
+    </class>
+</hibernate-mapping>

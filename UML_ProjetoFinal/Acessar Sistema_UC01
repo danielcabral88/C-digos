@@ -1,0 +1,24 @@
+Acessar Sistema(UC01)
+
+Breve Descrição
+Disponibiliza ao usuário acesso às funcionalidades do sistema
+
+Atores
+Usuário
+
+Pré-requisitos
+	O usuário deve ser cadastrado no sistema;
+Fluxo Básico
+	1 - O sistema exibe na tela de login os campos nome de usuário e senha;
+	2 - O usuário preenche os campos nome de usuário e senha;
+	3 - O usuário clica em "Efetuar Login";
+	4 - O sistema valida os campos preenchidos pelo usuário; A1, A2
+	5 - O sistema disponibiliza ao usuário acesso às funcionalidades do sistema referentes ao seu perfil(Usuário Administrador ou Usuário Coordenador);
+	6 - O sistema exibe a tela principal ao usuário;
+Fluxos Altenativos
+	A1 Fluxo alternativo 1: Usuário não possui cadastro no sistema.
+		O sistema manda uma mensagem informando que o usuário informado é invalido;
+		O fluxo retorna ao passo 1 do fluxo básico;
+	A2 Fluxo alternativo 2: Senha informada inválida.
+		O sistema manda uma mensagem informando que o usuário informando é invalido;
+		O fluxo retorna ao passo 1 do fluxo básico;

@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1381204595 source:c:\users\ps-inalberth\desktop\codeblocks\avl\avl.c
+	<stdio.h>
+	<stdlib.h>
+	"avl.h"
+
+1381203777 c:\users\ps-inalberth\desktop\codeblocks\avl\avl.h
+
+1381283205 source:c:\users\ps-inalberth\desktop\codeblocks\avl\teste.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"avl.h"
+

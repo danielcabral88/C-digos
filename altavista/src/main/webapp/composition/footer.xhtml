@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" 
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui" 
+      xmlns:h="http://java.sun.com/jsf/html">
+
+	<h:body>
+	<ui:composition>
+   <p:panel footer="2014 - Todos os direitos reservados.">
+				<h:panelGrid columns="2" style="margin: auto">
+					<h:panelGrid columns="1" cellspacing="6">
+						<h3>Contato</h3>
+						<h:panelGrid columns="3" cellpadding="6" style="text-align: right">
+							<h:outputLabel value="Login:"/>
+							<h:inputText label="Login" id="login" style="width: 350px"/>
+							<p:watermark for="login" value="Entre com o login"/>
+							<h:outputLabel value="Senha:" />
+							<h:inputText id="senha" label="Senha" style="width: 350px"/>
+							<p:watermark for="senha" value="Entre com a senha"/>
+							<h:outputLabel value="Mensagem:" />
+							<h:inputTextarea label="Mensagem" rows="5" style="width: 350px" cols="10"/>
+						</h:panelGrid>
+						<h:commandButton value="Enviar"/>
+					</h:panelGrid>
+					<h:panelGrid columns="1" cellspacing="6">
+						<h3>Nossa Localização</h3>
+						<h:outputText value="Endereço: Av. Marechal Bismarck, 1048" />
+						<h:outputText value="Fone: (XX) 2109-2224" />
+						<h:outputText value="E-mail: contato@marinaltavista.com.br" />
+						<h:outputText value="Atendimento: Seg a Sex - 08:00 - 20:00" />
+						<p:spacer height="120"/>
+					</h:panelGrid>
+				</h:panelGrid>
+				</p:panel>
+				</ui:composition>
+   </h:body>
+</html>

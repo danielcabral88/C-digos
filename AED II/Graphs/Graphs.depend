@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1385685533 source:c:\users\daniel cabral\google drive\acadêmico\2013.2\aed ii\graphs\main.cpp
+	<iostream>
+	<stdio.h>
+	"Graphs.h"
+
+1385685510 source:c:\users\daniel cabral\google drive\acadêmico\2013.2\aed ii\graphs\graphs.cpp
+	<stdio.h>
+	<stdlib.h>
+	"Graphs.h"
+	<queue>
+	<limits.h>
+
+1385610996 c:\users\daniel cabral\google drive\acadêmico\2013.2\aed ii\graphs\graphs.h
+

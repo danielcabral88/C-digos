@@ -1,0 +1,71 @@
+INSERT INTO estilo (id,nome) VALUES (1,'reggae');
+INSERT INTO estilo (id,nome) VALUES (2,'rock');
+INSERT INTO estilo (id,nome) VALUES (3,'pop');
+INSERT INTO estilo (id,nome) VALUES (4,'samba');
+INSERT INTO estilo (id,nome) VALUES (5,'sertanejo');
+
+INSERT INTO regiao (id,nome) VALUES (1,'nordeste');
+INSERT INTO regiao (id,nome) VALUES (2,'norte');
+INSERT INTO regiao (id,nome) VALUES (3,'sudeste');
+INSERT INTO regiao (id,nome) VALUES (4,'sul');
+INSERT INTO regiao (id,nome) VALUES (5,'centro-oeste');
+
+INSERT INTO estacao (id,regiao_id,nome) VALUES (1,1,'litoral fm');
+INSERT INTO estacao (id,regiao_id,nome) VALUES (2,1,'estacao show');
+INSERT INTO estacao (id,regiao_id,nome) VALUES (3,1,'verde som');
+INSERT INTO estacao (id,regiao_id,nome) VALUES (4,2,'escuta saudade');
+INSERT INTO estacao (id,regiao_id,nome) VALUES (5,3,'total miragem fm');
+INSERT INTO estacao (id,regiao_id,nome) VALUES (6,4,'sol na escuta');
+INSERT INTO estacao (id,regiao_id,nome) VALUES (7,4,'radar fm');
+INSERT INTO estacao (id,regiao_id,nome) VALUES (8,5,'somjah');
+INSERT INTO estacao (id,regiao_id,nome) VALUES (9,5,'rodaviva fm');
+
+INSERT INTO usuario (id,login,senha,tipo) VALUES (1,'gdouglas','1234','radio');
+INSERT INTO usuario (id,login,senha,tipo) VALUES (2,'felipep','4321','estacao');
+INSERT INTO usuario (id,login,senha,tipo) VALUES (3,'danielc','abcd','estacao');
+INSERT INTO usuario (id,login,senha,tipo) VALUES (4,'a','1','radio');
+INSERT INTO usuario (id,login,senha,tipo) VALUES (5,'2','b','estacao');
+
+INSERT INTO musica (id,estilo_id,nome,artista) VALUES (1,1,'Going Places','Hugh Mundell');
+INSERT INTO musica (id,estilo_id,nome,artista) VALUES (2,1,'Love vibration','Owen Gray');
+INSERT INTO musica (id,estilo_id,nome,artista) VALUES (3,1,'Bellyfull','The gladiators');
+INSERT INTO musica (id,estilo_id,nome,artista) VALUES (4,1,'Talking Blues','Bob Marley');
+INSERT INTO musica (id,estilo_id,nome,artista) VALUES (5,1,'My Mind','Hugh Mundell');
+INSERT INTO musica (id,estilo_id,nome,artista) VALUES (6,1,'Not Done Yet','SOJA');
+INSERT INTO musica (id,estilo_id,nome,artista) VALUES (7,1,'O Inimigo','Ponto de Equilibrio');
+INSERT INTO musica (id,estilo_id,nome,artista) VALUES (8,1,'Santa Kaya','Ponto de Equilibrio');
+
+INSERT INTO musica (id,estilo_id,nome,artista) VALUES (9,2,'Under the Bridge','Red Hot Chili Peppers');
+INSERT INTO musica (id,estilo_id,nome,artista) VALUES (10,2,'Throw Away Your Television','Red Hot Chili Peppers');
+INSERT INTO musica (id,estilo_id,nome,artista) VALUES (11,2,'Lonely Day','System of a Down');
+INSERT INTO musica (id,estilo_id,nome,artista) VALUES (12,2,'Sugar','System of a Down');
+INSERT INTO musica (id,estilo_id,nome,artista) VALUES (13,2,'Iron Man','Black Sabbath');
+INSERT INTO musica (id,estilo_id,nome,artista) VALUES (14,2,'Paranoid','Black Sabbath');
+INSERT INTO musica (id,estilo_id,nome,artista) VALUES (15,2,'Immigrant Song','Led Zeppellin');
+INSERT INTO musica (id,estilo_id,nome,artista) VALUES (16,2,'Dyer Mak er','Led Zeppellin');
+
+INSERT INTO musica (id,estilo_id,nome,artista) VALUES (17,3,'This Love','Marron 5');
+INSERT INTO musica (id,estilo_id,nome,artista) VALUES (18,3,'Maps','Marron 5');
+INSERT INTO musica (id,estilo_id,nome,artista) VALUES (19,3,'Roar','Katy Parry');
+INSERT INTO musica (id,estilo_id,nome,artista) VALUES (20,3,'Firework','Katy Parry');
+INSERT INTO musica (id,estilo_id,nome,artista) VALUES (21,3,'Diamonds','Rihanna');
+INSERT INTO musica (id,estilo_id,nome,artista) VALUES (22,3,'Umbrella','Rihanna');
+INSERT INTO musica (id,estilo_id,nome,artista) VALUES (23,3,'Steal My Girl','One Direction');
+INSERT INTO musica (id,estilo_id,nome,artista) VALUES (24,3,'18','One Direction');
+
+INSERT INTO musica (id,estilo_id,nome,artista) VALUES (25,4,'Fita Os Meus Olhos','Cartola');
+INSERT INTO musica (id,estilo_id,nome,artista) VALUES (26,4,'Tive, Sim','Cartola');
+INSERT INTO musica (id,estilo_id,nome,artista) VALUES (27,4,'Nós Dois','Cartola');
+INSERT INTO musica (id,estilo_id,nome,artista) VALUES (28,4,'As Rosas Não Falam','Cartola');
+INSERT INTO musica (id,estilo_id,nome,artista) VALUES (29,4,'Fim da Tristeza','Arlindo Cruz');
+INSERT INTO musica (id,estilo_id,nome,artista) VALUES (30,4,'Ponto sem Nó','Arlindo Cruz');
+INSERT INTO musica (id,estilo_id,nome,artista) VALUES (31,4,'Santo Forte','Arlindo Cruz');
+INSERT INTO musica (id,estilo_id,nome,artista) VALUES (32,4,'Temporal','Art Popular');
+
+INSERT INTO musica (id,estilo_id,nome,artista) VALUES (33,5,'Borboletas','Victor e Leo');
+INSERT INTO musica (id,estilo_id,nome,artista) VALUES (34,5,'Calma','Jorge e Mateus');
+INSERT INTO musica (id,estilo_id,nome,artista) VALUES (35,5,'Logo Eu','Jorge e Mateus');
+INSERT INTO musica (id,estilo_id,nome,artista) VALUES (36,5,'Duas Metades','Jorge e Mateus');
+INSERT INTO musica (id,estilo_id,nome,artista) VALUES (37,5,'Pra voce','Paula Fernandes');
+INSERT INTO musica (id,estilo_id,nome,artista) VALUES (38,5,'Eu sem voce','Paula Fernandes');
+

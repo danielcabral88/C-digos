@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+
+body, html {
+	
+	height: 100%;
+}
+
+body {
+	
+	margin: 0;
+}
+
+.container {
+	
+	background: yellow;
+}
+
+.menu {
+	
+	width: 100%;
+}
+
+.jumbotron {
+		
+	display: block;
+	background: url("../resources/images/header-img.png");
+}

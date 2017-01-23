@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1381080827 source:c:\users\manoel\desktop\redblack\main.c
+	<stdio.h>
+	<stdlib.h>
+	"RBT.h"
+
+1381081083 c:\users\manoel\desktop\redblack\rbt.h
+
+1381081083 source:c:\users\manoel\desktop\redblack\untitled1.c
+	<stdio.h>
+	<stdlib.h>
+	"RBT.h"
+
+1381113311 source:c:\users\ramon\downloads\redblack\main.c
+	<stdio.h>
+	<stdlib.h>
+	"RBT.h"
+
+1381112175 c:\users\ramon\downloads\redblack\rbt.h
+
+1381113283 source:c:\users\ramon\downloads\redblack\untitled1.c
+	<stdio.h>
+	<stdlib.h>
+	"RBT.h"
+

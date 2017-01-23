@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" 
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui" 
+      xmlns:h="http://java.sun.com/jsf/html">
+      
+      <h:body>
+      <ui:define name="menu">
+      		<ui:composition>
+      			
+      				<h:form>
+					<p:menubar>
+						<p:menuitem value="Home" icon="ui-icon-home">
+						</p:menuitem>
+						<p:submenu label="Unidades" icon="ui-icon-home">
+							<p:menuitem value="Criar Nova" icon="ui-icon-document"/>
+							<p:menuitem value="Localizar" icon="ui-icon-search"/>
+							<p:menuitem value="Excluir" icon="ui-icon-trash"/>
+						</p:submenu>
+						<p:submenu label="Serviços" icon="ui-icon-wrench">
+						</p:submenu>
+						<p:submenu label="Reuniões" icon="ui-icon-calendar">
+						</p:submenu>
+						<p:menuitem value="Quem Somos" icon="ui-icon-contact">
+						</p:menuitem>
+						<p:submenu label="Usuário" icon="ui-icon-person" style="float:right">
+						</p:submenu>
+					</p:menubar>
+		</h:form>
+      			
+      		</ui:composition>
+      		</ui:define>
+      </h:body>
+</html>

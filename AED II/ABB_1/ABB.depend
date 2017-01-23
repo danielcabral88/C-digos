@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1373138211 source:c:\users\ps-inalberth\desktop\codeblocks\abb\arvorebinaria.c
+	<stdlib.h>
+	<stdio.h>
+	"ArvoreBinaria.h"
+
+1373121913 c:\users\ps-inalberth\desktop\codeblocks\abb\arvorebinaria.h
+
+1373134832 source:c:\users\ps-inalberth\desktop\codeblocks\abb\teste.c
+	<stdlib.h>
+	<stdio.h>
+	"ArvoreBinaria.h"
+
+1373497633 source:c:\users\si1111013-21\desktop\abb\teste.c
+	<stdlib.h>
+	<stdio.h>
+	"ArvoreBinaria.h"
+
+1373493003 c:\users\si1111013-21\desktop\abb\arvorebinaria.h
+
+1373497626 source:c:\users\si1111013-21\desktop\abb\arvorebinaria.c
+	<stdlib.h>
+	<stdio.h>
+	"ArvoreBinaria.h"
+
+1373581180 source:c:\users\ps-inalberth\desktop\abb_1\teste.c
+	<stdlib.h>
+	<stdio.h>
+	"ArvoreBinaria.h"
+
+1373493004 c:\users\ps-inalberth\desktop\abb_1\arvorebinaria.h
+
+1373506505 source:c:\users\ps-inalberth\desktop\abb_1\arvorebinaria.c
+	<stdlib.h>
+	<stdio.h>
+	"ArvoreBinaria.h"
+
+1374783035 source:c:\users\ps-inalberth\desktop\codeblocks\abb_1\teste.c
+	<stdlib.h>
+	<stdio.h>
+	"ArvoreBinaria.h"
+
+1374783223 c:\users\ps-inalberth\desktop\codeblocks\abb_1\arvorebinaria.h
+
+1374783142 source:c:\users\ps-inalberth\desktop\codeblocks\abb_1\arvorebinaria.c
+	<stdlib.h>
+	<stdio.h>
+	"ArvoreBinaria.h"
+
+1338939780 c:\users\ps-inalberth\desktop\codeblocks\fila\fila.h
+
+1338990766 source:c:\users\ps-inalberth\desktop\codeblocks\fila\fila.c
+	<stdlib.h>
+	<stdio.h>
+	"fila.h"
+

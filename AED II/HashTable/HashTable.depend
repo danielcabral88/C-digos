@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1386890518 source:c:\users\daniel cabral\google drive\acadêmico\2013.2\aed ii\hashtable\hashtable.cpp
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<time.h>
+	<conio.h>
+	"HashTable.h"
+
+1386892901 c:\users\daniel cabral\google drive\acadêmico\2013.2\aed ii\hashtable\hashtable.h
+
+1386893188 source:c:\users\daniel cabral\google drive\acadêmico\2013.2\aed ii\hashtable\hashtable.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<time.h>
+	<conio.h>
+	"HashTable.h"
+
+1386893220 source:c:\users\daniel cabral\google drive\acadêmico\2013.2\aed ii\hashtable\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<time.h>
+	<conio.h>
+	"HashTable.h"
+

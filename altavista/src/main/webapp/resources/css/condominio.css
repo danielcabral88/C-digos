@@ -1,0 +1,110 @@
+@CHARSET "UTF-8";
+
+@font-face { 
+	font-family: 'Gabriola'; 
+	src: url('../resources/fonts/gabriola.eot'); 
+	src: url('../resources/fonts/gabriola.eot?#iefix') format('embedded-opentype'), 
+	url('../resources/fonts/gabriola.svg#Gabriola') format('svg'), 
+	url('../resources/fonts/gabriola.woff') format('woff'), 
+	url('../resources/fonts/gabriola.ttf') format('truetype'); 
+	font-weight: normal; 
+	font-style: normal;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+h1, h2, h3 {
+	font-family: 'Gabriola';
+}
+
+li, a {
+	font-family: 'Gabriola';
+}
+
+body {
+				
+				background: #F9F9F9;
+				//background: url("../resources/images/sea-theme.png");
+				width: 100%;
+				font-family: 'Gabriola';
+			}
+			
+			.ui-layout, .ui-layout-doc, .ui-layout-unit, .ui-layout-wrap, .ui-layout-bd, .ui-layout-hd, .ui-layout-pane, .ui-layout-unit-content {
+             border: none !important;
+             padding: 0 !important;
+             background: none !important;
+        }
+        
+        	.ui-widget {
+        		
+        		font-family: 'Cantarell';
+        		background: #f9f9f9;
+        	}
+        
+        	.ui-layout-north {
+				z-index: 20 !important;
+				overflow: visible !important;
+			}
+			
+			.ui-layout-north .ui-layout-unit-content {
+  				 overflow: visible !important;
+			}
+			
+			.ui-layout-center {                    
+            overflow-x:hidden !important;
+            overflow-y:hidden !important;
+        }
+
+        .ui-layout-center .ui-layout-unit-content {
+            overflow-x:hidden !important;
+            overflow-y:hidden !important;
+        }    
+		
+		#center {
+			
+			min-height: 100%;
+			height: auto !important;
+			height: 100%;
+			margin: 0 auto -428px;
+		}
+		
+		#footer, #up {
+			height: 428px;
+		}
+		
+	#jumbotron {
+		
+		display: block;
+		position: relative;
+		width: 100%;
+		background: url("../resources/images/header-img.png") no-repeat center center fixed;
+		-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	}
+	
+	#description {
+	
+		font-family: 'Gabriola';
+		padding: 2%;
+		font-size: 50px;
+	}
+
+    #image {
+    	position: absolute;
+    	bottom: -110px;
+    	left: 50%;
+    	margin-left: -512px;
+    }
+    
+    #image img {
+    	
+    	display: block;
+    	width: 1024px;
+    	height: 256px;
+    }
+		

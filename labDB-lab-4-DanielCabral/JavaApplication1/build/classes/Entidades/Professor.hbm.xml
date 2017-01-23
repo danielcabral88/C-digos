@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 4, 2013 9:45:51 PM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="Entidades.Professor" table="professor" catalog="academico">
+        <id name="matricula" type="java.lang.Integer">
+            <column name="matricula" />
+            <generator class="identity" />
+        </id>
+        <property name="nome" type="string">
+            <column name="nome" length="45" not-null="true" />
+        </property>
+        <property name="salario" type="float">
+            <column name="salario" precision="12" scale="0" not-null="true" />
+        </property>
+        <set name="disciplinas" inverse="true">
+            <key>
+                <column name="professor_matricula1" not-null="true" />
+            </key>
+            <one-to-many class="Entidades.Disciplina" />
+        </set>
+    </class>
+</hibernate-mapping>
